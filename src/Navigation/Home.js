@@ -14,7 +14,6 @@ const HomeNavigation = () => {
             screenOptions={{
                 headerShown: false
             }}
-
         >
             <Stack.Screen name="Home" component={HomeScreen} />
             <Stack.Screen name="DestinationScreen" component={DestinationScreen} />
